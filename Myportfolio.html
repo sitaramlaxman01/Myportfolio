@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitaram | Data Analyst Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    padding:20px;
+    text-align:center;
+    background:#111827;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+
+header h1{
+    font-size:50px;
+    color:#38bdf8;
+}
+
+header p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:50px;
+    color:#38bdf8;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+.card-content p{
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:8px 15px;
+    background:#38bdf8;
+    color:#0f172a;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+
+.contact{
+    text-align:center;
+    line-height:30px;
+}
+
+.contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <h1>Sitaram Laxman</h1>
+    <p>Data Analyst | Python | SQL | Power BI | Machine Learning</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+        Aspiring Data Analyst skilled in Python, SQL, Power BI and Machine Learning.
+        Passionate about extracting insights from data and building impactful dashboards
+        and predictive models.The objective of a Data Analyst is to transform raw data into 
+	meaningful insights that support data-driven decision-making.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Amazon Sales Dashboard">
+            <div class="card-content">
+                <h3>Amazon Sales Dashboard</h3>
+                <p>Interactive Power BI dashboard analyzing revenue trends, top products and regional performance.</p>
+                <a href="https://github.com/sitaramlaxman01" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+	<div class="card">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Ecommerce_Sales_Analysis">
+            <div class="card-content">
+                <h3>Ecommerce_Sales_Analysis</h3>
+                <p>This project analyzes e-commerce sales data using Power BI to understand business performance and customerbehavior.</p>
+                <a href="https://github.com/sitaramlaxman01" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0" alt="Medical Cost Prediction">
+            <div class="card-content">
+                <h3>Medical Cost Prediction</h3>
+                <p>Regression model predicting healthcare expenses using Python, EDA and visualization.</p>
+                <a href="https://github.com/sitaramlaxman01" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644" alt="Student Depression Analysis">
+            <div class="card-content">
+                <h3>Student Depression Analysis</h3>
+                <p>Classification models analyzing academic pressure and lifestyle impact on mental health.</p>
+                <a href="https://github.com/sitaramlaxman01" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+ 	<div class="card">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644" alt="Patients_cost-analysis (Using Python)">
+            <div class="card-content">
+                <h3>Patients_cost-analysis</h3>
+                <p>This project focuses on performing data analysis using Python it notebook includes data preprocessing,feature 				creation,grouping,visualizationand basic insights derived from the dataset.</p>
+                <a href="https://github.com/sitaramlaxman01" target="_blank" class="btn">View on GitHub</a>
+            </div>
+
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+        📞 +91 8074682433 <br>
+        📧 <a href="mailto:Sitaramlaxman01@gmail.com">Sitaramlaxman01@gmail.com</a><br>
+        🔗 <a href="https://www.linkedin.com/in/sitarama2002" target="_blank">LinkedIn</a> |
+        💻 <a href="https://github.com/sitaramlaxman01" target="_blank">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Sitaram Laxman | Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
