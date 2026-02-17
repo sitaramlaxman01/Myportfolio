@@ -173,8 +173,6 @@ footer{
 .home-image{
     flex:1;
     text-align:center;
-}
-
 .home-image img{
     width:300px;
     height:300px;
@@ -183,6 +181,16 @@ footer{
     border:5px solid #38bdf8;
     box-shadow:0 10px 30px rgba(0,0,0,0.5);
 }
+
+#about .home-container {
+    align-items: center;
+}
+
+#about p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
 
 </style>
 </head>
@@ -214,23 +222,27 @@ footer{
         </div>
     </div>
 </header>
-
-
-
+	
 <section id="about">
-	 <div class="home-container">
-	<div class="home-text">
-    <h2>About Me</h2>
-    <p style="text-align:center; max-width:700px; margin:auto;">
-        Aspiring Data Analyst skilled in Python, SQL, Power BI and Machine Learning.
-        Passionate about extracting insights from data and building impactful dashboards
-        and predictive models.The objective of a Data Analyst is to transform raw data into 
-	meaningful insights that support data-driven decision-making.
-    </p>
-	<div class="about">
-    	<img src="naruto.avif" alt="Sitaram Profile">
+    <div class="home-container">
+        
+        <div class="home-text">
+            <h2>About Me</h2>
+            <p>
+                Aspiring Data Analyst skilled in Python, SQL, Power BI and Machine Learning.
+                Passionate about extracting insights from data and building impactful dashboards
+                and predictive models. The objective of a Data Analyst is to transform raw data 
+                into meaningful insights that support data-driven decision-making.
+            </p>
+        </div>
+
+        <div class="home-image">
+            <img src="naruto.avif" alt="About Image">
+        </div>
+
     </div>
 </section>
+
 
 <section id="projects">
     <h2>My Projects</h2>
@@ -307,6 +319,7 @@ footer{
 
 </body>
 </html>
+
 
 
 
